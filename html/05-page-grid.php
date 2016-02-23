@@ -7,7 +7,7 @@
 
 		
 		
-		<article class="entry expanded row" itemscope itemtype="http://schema.org/Article">
+		<article class="entry" itemscope itemtype="http://schema.org/Article">
 			<header class="entry__header">
 				<h1 class="page__title" itemprop="headline">Titre de la page</h1>
 				<div class="entry__date">
@@ -16,21 +16,26 @@
 			</header>
 			<div class="row ">
 				<div class="small-12 large-4 columns">
-					<h2>1ere colonne</h2>
-					<p>Voici la premiere colonne</p>
+					<div>
+						<h2>1ere colonne</h2>
+						<p>Voici la premiere colonne</p>
+					</div>
+					
 				</div>
-		        <div class="small-6 large-4 columns">2eme colonne</div>
-		        <div class="small-6 large-4 columns">3eme colonne</div>
+		        <div class="small-6 large-4 columns">
+		        	<div>
+						<h2>2eme colonne</h2>
+						<p>Voici la deuxieme colonne</p>
+					</div>
+		        </div>
+		        <div class="small-6 large-4 columns">
+		        	<div>
+						<h2>3eme colonne</h2>
+						<p>Voici la troisieme colonne</p>
+					</div>
+		        </div>
 			</div>
 			<br />
-			<div class="row medium-uncollapse large-collapse">
-        <div class="small-6 columns">
-          Removes gutter at large media query
-        </div>
-        <div class="small-6 columns">
-          Removes gutter at large media query
-        </div>
-      </div>
 			<section class="entry__content" itemprop="articleBody">
 				<h2>Image with link to a bigger size using a lightbox</h2>
 				<p>

@@ -16,11 +16,9 @@ $desktop-medium: 1260px;
 
 // ZURB Foundation Grid
 //calculate gutter in pixels
-$column-gutter: rem-calc(20);
+$column-gutter: rem-calc(10);
 
-.column, .columns {
-	background: #ccc;
-}
+
 
 .left-collapse {
   .columns {
