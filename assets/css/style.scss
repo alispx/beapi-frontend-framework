@@ -13,6 +13,9 @@
 // import grid-system Zurb Foundation
 @import "vendor/foundation/scss/_foundation.scss";
 
+// import grid-system KNACSS
+@import "vendor/KNACSS/sass/_knacss.scss";
+
 //Main sass config files
 @import "components/_url-config.scss";
 @import "components/_variables.scss";
@@ -26,6 +29,9 @@
 @import "components/_form.scss";
 @import "components/_buttons.scss";
 @import "components/_messages.scss";
+@import "components/_knacss-grid.scss";
+@import "components/_zurb-grid.scss";
+
 
 //Main websites patterns
 @import "patterns/_global.scss";
@@ -40,8 +46,8 @@
 @import "patterns/_widgets.scss";
 @import "patterns/_searchform.scss";
 
+
 //Pages
 @import "pages/_default.scss";
 @import "pages/_404.scss";
 @import "pages/_home.scss";
-@import "pages/_zurb-grid.scss";

@@ -7,7 +7,7 @@
 
 		
 		
-		<article class="entry row" itemscope itemtype="http://schema.org/Article">
+		<article class="entry" itemscope itemtype="http://schema.org/Article">
 			<header class="entry__header">
 				<h1 class="page__title" itemprop="headline">Titre de la page</h1>
 				<div class="entry__date">
@@ -36,6 +36,34 @@
 		        </div>
 			</div>
 			<br />
+			<h3>Grilles knacss</h3>
+			<div class="grid-4-small-2-tiny-1">
+				<div>
+					1- lorem ipsum<br>Lorem Elsass ipsum lacus leverwurscht Wurschtsalad mamsell Gal.
+				</div>
+				<div>
+					2- lorem ipsum<br>Lorem Elsass ipsum lacus leverwurscht Wurschtsalad mamsell Gal.
+				</div>
+				<div>
+					3- lorem ipsum<br>Lorem Elsass ipsum lacus leverwurscht Wurschtsalad mamsell Gal.
+				</div>
+				<div>
+					4- lorem ipsum<br>Lorem Elsass ipsum lacus leverwurscht Wurschtsalad mamsell Gal.
+				</div>
+			</div>
+			<br />
+			<div class="grid-2-1">
+			  <div>
+			    <ul class="unstyled grid-3">
+			        <li>1</li>
+			        <li>2</li>
+			        <li>3</li>
+			    </ul>
+			  </div>
+			  <aside>
+			    2- lorem ipsum Hopla choucroute !
+			  </aside>
+			</div>
 			<section class="entry__content" itemprop="articleBody">
 				<h2>Image with link to a bigger size using a lightbox</h2>
 				<p>

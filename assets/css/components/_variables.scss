@@ -18,17 +18,8 @@ $desktop-medium: 1260px;
 //calculate gutter in pixels
 $column-gutter: rem-calc(10);
 
-
-
-.left-collapse {
-  .columns {
-    padding-left: 0;
-    padding-right: 0;
-    @include susy-breakpoint($tablet-medium) {
-		padding-right: $column-gutter;
-	}
-  }
-}
+//KNACSS
+//Voir le fichier _00-config.scss dans vendor/knacss/sass
 
 //Fonts
 $font-sansserif: Arial, Helvetica, sans-serif;

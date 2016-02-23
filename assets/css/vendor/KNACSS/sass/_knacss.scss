@@ -1,0 +1,20 @@
+// Sass config file
+// -----------------
+
+// (WARNING : you should comment this line and move config file from vendor/knacss folder to your own folder)
+@import "_00-config";
+
+
+// Sass files : chose the ones you need
+@import "_03-grids"; // grids
+
+
+
+
+/* ----------------------------- */
+/* ==own stylesheet              */
+/* ----------------------------- */
+
+/* Here should go your own CSS styles */
+/* You can also link them with a Sass @import */
+/* @import "my-styles"; */
