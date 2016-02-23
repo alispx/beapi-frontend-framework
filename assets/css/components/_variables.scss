@@ -6,6 +6,32 @@ $susy: (
 	//debug :(image: show-columns)
 );
 
+//Breakpoint
+$mobile-small: 480px;
+$mobile-medium: 481px;
+$tablet-small: 601px;
+$tablet-medium: 768px;
+$desktop-small: 1024px;
+$desktop-medium: 1260px;
+
+// ZURB Foundation Grid
+//calculate gutter in pixels
+$column-gutter: rem-calc(20);
+
+.column, .columns {
+	background: #ccc;
+}
+
+.left-collapse {
+  .columns {
+    padding-left: 0;
+    padding-right: 0;
+    @include susy-breakpoint($tablet-medium) {
+		padding-right: $column-gutter;
+	}
+  }
+}
+
 //Fonts
 $font-sansserif: Arial, Helvetica, sans-serif;
 $font-serif: Times, Georgia, serif;
@@ -52,10 +78,4 @@ $infocolor-2 : #d5edf8;
 $base-border-color: $light-gray;
 $base-border: 1px solid $base-border-color;
 
-//Breakpoint
-$mobile-small: 480px;
-$mobile-medium: 481px;
-$tablet-small: 601px;
-$tablet-medium: 768px;
-$desktop-small: 1024px;
-$desktop-medium: 1260px;
+
