@@ -37,7 +37,7 @@
 			</div>
 			<br />
 			<h3>Grilles knacss</h3>
-			<div class="grid-4-small-2-tiny-1">
+			<div class="grid-4-tablet-3-small-2-tiny-1">
 				<div>
 					1- lorem ipsum<br>Lorem Elsass ipsum lacus leverwurscht Wurschtsalad mamsell Gal.
 				</div>
