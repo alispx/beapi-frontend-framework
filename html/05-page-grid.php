@@ -52,6 +52,7 @@
 				</div>
 			</div>
 			<br />
+			<h3>Grilles Personnal Gutter Size (hack)</h3>
 			<div class="grid-sass">
 				<div>1 sur 7</div>
 				<div>2 sur 7</div>
@@ -60,6 +61,21 @@
 				<div>5 sur 7</div>
 				<div>6 sur 7</div>
 				<div>7 sur 7</div>
+			</div>
+			<br />
+			<div class="grid-sass-6">
+				<div>1 sur 6</div>
+				<div>2 sur 6</div>
+				<div>3 sur 6</div>
+				<div>4 sur 6</div>
+				<div>5 sur 6</div>
+				<div>6 sur 6</div>
+			</div>
+			<br />
+			<div class="grid-sass-3">
+				<div>1 sur 3</div>
+				<div>2 sur 3</div>
+				<div>3 sur 3</div>
 			</div>
 			<br />
 			<div class="grid-uneven">

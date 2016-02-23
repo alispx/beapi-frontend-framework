@@ -14,7 +14,7 @@
 // example : .grid-perso { @include grid(12, 10px); }
 // ... or uneven grids :
 // left = left ratio column (default = 2) / right = right ratio column (default = 1)
-// example : .grid-perso { @include uneven-grid(2, 1, 10px); }
+// example : .grid-perso { @include uneven-grid(2, 1, 10px); }; 
 
 /* grid container */
 [class*="#{$kna-namespace}grid-"] {
@@ -41,14 +41,22 @@
   letter-spacing: normal;
 }
 
+
 // Sass mixins for *equal* columns grid container
 // example : .grid-perso { @include grid(12); }
-@mixin grid($number:$number,$gutter:$gutter) {
+@mixin grid($number:$number,$gutters:$gutter) {
+  
   & > * {
-    width: calc(100% * 1 / #{$number} - #{$gutter} - .01px);
+    &:first-child {
+      margin-left: #{$gutter};
+      //my-calculation-function($number,$gutters)
+    }
+    width: calc(((100% * 1 / #{$number}) - #{$gutters} - (#{$gutter} / #{$number})) + (#{$gutters} / #{$number}) - .01px ) ;
+    margin-left: #{$gutters};
   }
   & > .#{$kna-namespace}flex-item-double {
     width: calc(100% * 2 / #{$number} - #{$gutter});
+    margin-left: #{$gutter};
   }
 }
 

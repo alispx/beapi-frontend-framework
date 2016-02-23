@@ -5,13 +5,21 @@
 
 
 .grid-sass {
-	@include grid(7);
+	@include grid(7,10px);
 	@media (max-width: $tablet-screen) {
 		@include grid(3);
 		&>div {
 			margin-bottom: 20px;
 		}
 	}
+}
+
+.grid-sass-6 {
+	@include grid(6,5px);
+}
+
+.grid-sass-3 {
+	@include grid(3,0px);
 }
 
 .grid-uneven {
