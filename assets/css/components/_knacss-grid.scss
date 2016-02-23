@@ -2,3 +2,18 @@
 	background: $maingrey;
 	padding: 10px;
 }
+
+
+.grid-sass {
+	@include grid(7);
+	@media (max-width: $tablet-screen) {
+		@include grid(3);
+		&>div {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+.grid-uneven {
+	@include uneven-grid(1, 5);
+}
