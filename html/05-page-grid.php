@@ -7,7 +7,7 @@
 
 		
 		
-		<article class="entry" itemscope itemtype="http://schema.org/Article">
+		<article class="entry row" itemscope itemtype="http://schema.org/Article">
 			<header class="entry__header">
 				<h1 class="page__title" itemprop="headline">Titre de la page</h1>
 				<div class="entry__date">
