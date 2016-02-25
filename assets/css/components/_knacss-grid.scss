@@ -1,3 +1,6 @@
+// for see the grids: add yellow color
+
+
 [class*="grid-"] > div {
 	background: $maingrey;
 	padding: 10px;
@@ -15,13 +18,30 @@
 }
 
 .grid-sass-6 {
-	@include grid(6,5px);
+	@include grid(6,25px);
 }
 
 .grid-sass-3 {
 	@include grid(3,0px);
 }
 
+
+.grid-sass-4 {
+	@include grid(3);
+}
+
 .grid-uneven {
 	@include uneven-grid(1, 5);
+}
+
+.grid-uneven-styling {
+	@include uneven-grid(1, 5, 5px);
+	@media (max-width: $small-screen) {
+		& > *:nth-child(n) {
+			width: calc(100% - #{$gutter});
+		}
+		& > *:nth-child(even) {
+			margin-left: #{$gutter};
+		}
+	}
 }

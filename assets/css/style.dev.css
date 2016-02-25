@@ -2046,10 +2046,12 @@ select {
   margin-left: 20px; }
   [class*="grid-2"] > *:first-child {
     margin-left: 20px; }
+  [class*="grid-2"] > *:nth-child(3) {
+    margin-left: 20px; }
 
 [class*="grid-2"] > .flex-item-double {
-  width: calc(100% * 2 / 2 - 20px);
-  width: calc(100% * 2 / 2 - 1.25rem);
+  width: calc((100% * 2 / 2 - (20px)));
+  width: calc((100% * 2 / 2 - (1.25rem)));
   margin-left: 20px; }
 
 [class*="grid-3"] > * {
@@ -2058,10 +2060,12 @@ select {
   margin-left: 20px; }
   [class*="grid-3"] > *:first-child {
     margin-left: 20px; }
+  [class*="grid-3"] > *:nth-child(4) {
+    margin-left: 20px; }
 
 [class*="grid-3"] > .flex-item-double {
-  width: calc(100% * 2 / 3 - 20px);
-  width: calc(100% * 2 / 3 - 1.25rem);
+  width: calc((100% * 2 / 3 - (20px)));
+  width: calc((100% * 2 / 3 - (1.25rem)));
   margin-left: 20px; }
 
 [class*="grid-4"] > * {
@@ -2070,10 +2074,12 @@ select {
   margin-left: 20px; }
   [class*="grid-4"] > *:first-child {
     margin-left: 20px; }
+  [class*="grid-4"] > *:nth-child(5) {
+    margin-left: 20px; }
 
 [class*="grid-4"] > .flex-item-double {
-  width: calc(100% * 2 / 4 - 20px);
-  width: calc(100% * 2 / 4 - 1.25rem);
+  width: calc((100% * 2 / 4 - (20px)));
+  width: calc((100% * 2 / 4 - (1.25rem)));
   margin-left: 20px; }
 
 [class*="grid-5"] > * {
@@ -2082,10 +2088,12 @@ select {
   margin-left: 20px; }
   [class*="grid-5"] > *:first-child {
     margin-left: 20px; }
+  [class*="grid-5"] > *:nth-child(6) {
+    margin-left: 20px; }
 
 [class*="grid-5"] > .flex-item-double {
-  width: calc(100% * 2 / 5 - 20px);
-  width: calc(100% * 2 / 5 - 1.25rem);
+  width: calc((100% * 2 / 5 - (20px)));
+  width: calc((100% * 2 / 5 - (1.25rem)));
   margin-left: 20px; }
 
 [class*="grid-6"] > * {
@@ -2094,10 +2102,12 @@ select {
   margin-left: 20px; }
   [class*="grid-6"] > *:first-child {
     margin-left: 20px; }
+  [class*="grid-6"] > *:nth-child(7) {
+    margin-left: 20px; }
 
 [class*="grid-6"] > .flex-item-double {
-  width: calc(100% * 2 / 6 - 20px);
-  width: calc(100% * 2 / 6 - 1.25rem);
+  width: calc((100% * 2 / 6 - (20px)));
+  width: calc((100% * 2 / 6 - (1.25rem)));
   margin-left: 20px; }
 
 [class*="grid-7"] > * {
@@ -2106,10 +2116,12 @@ select {
   margin-left: 20px; }
   [class*="grid-7"] > *:first-child {
     margin-left: 20px; }
+  [class*="grid-7"] > *:nth-child(8) {
+    margin-left: 20px; }
 
 [class*="grid-7"] > .flex-item-double {
-  width: calc(100% * 2 / 7 - 20px);
-  width: calc(100% * 2 / 7 - 1.25rem);
+  width: calc((100% * 2 / 7 - (20px)));
+  width: calc((100% * 2 / 7 - (1.25rem)));
   margin-left: 20px; }
 
 [class*="grid-8"] > * {
@@ -2118,10 +2130,12 @@ select {
   margin-left: 20px; }
   [class*="grid-8"] > *:first-child {
     margin-left: 20px; }
+  [class*="grid-8"] > *:nth-child(9) {
+    margin-left: 20px; }
 
 [class*="grid-8"] > .flex-item-double {
-  width: calc(100% * 2 / 8 - 20px);
-  width: calc(100% * 2 / 8 - 1.25rem);
+  width: calc((100% * 2 / 8 - (20px)));
+  width: calc((100% * 2 / 8 - (1.25rem)));
   margin-left: 20px; }
 
 [class*="grid-10"] > * {
@@ -2130,10 +2144,12 @@ select {
   margin-left: 20px; }
   [class*="grid-10"] > *:first-child {
     margin-left: 20px; }
+  [class*="grid-10"] > *:nth-child(11) {
+    margin-left: 20px; }
 
 [class*="grid-10"] > .flex-item-double {
-  width: calc(100% * 2 / 10 - 20px);
-  width: calc(100% * 2 / 10 - 1.25rem);
+  width: calc((100% * 2 / 10 - (20px)));
+  width: calc((100% * 2 / 10 - (1.25rem)));
   margin-left: 20px; }
 
 [class*="grid-12"] > * {
@@ -2142,10 +2158,12 @@ select {
   margin-left: 20px; }
   [class*="grid-12"] > *:first-child {
     margin-left: 20px; }
+  [class*="grid-12"] > *:nth-child(13) {
+    margin-left: 20px; }
 
 [class*="grid-12"] > .flex-item-double {
-  width: calc(100% * 2 / 12 - 20px);
-  width: calc(100% * 2 / 12 - 1.25rem);
+  width: calc((100% * 2 / 12 - (20px)));
+  width: calc((100% * 2 / 12 - (1.25rem)));
   margin-left: 20px; }
 
 /* Responsive grid */
@@ -2221,12 +2239,8 @@ select {
 
 .grid-2-1 > *:nth-child(even) {
   width: calc(33.33333% - 20px);
-  width: calc(33.33333% - 1.25rem); }
-
-@media (max-width: 640px) {
-  .grid-2-1 > *:nth-child(n) {
-    width: calc(100% - 20px);
-    width: calc(100% - 1.25rem); } }
+  width: calc(33.33333% - 1.25rem);
+  margin-left: 20px; }
 
 .grid-1-2 > *:nth-child(odd) {
   width: calc(33.33333% - 20px);
@@ -2234,12 +2248,8 @@ select {
 
 .grid-1-2 > *:nth-child(even) {
   width: calc(66.66667% - 20px);
-  width: calc(66.66667% - 1.25rem); }
-
-@media (max-width: 640px) {
-  .grid-1-2 > *:nth-child(n) {
-    width: calc(100% - 20px);
-    width: calc(100% - 1.25rem); } }
+  width: calc(66.66667% - 1.25rem);
+  margin-left: 20px; }
 
 .grid-3-1 > *:nth-child(odd) {
   width: calc(75% - 20px);
@@ -2247,12 +2257,8 @@ select {
 
 .grid-3-1 > *:nth-child(even) {
   width: calc(25% - 20px);
-  width: calc(25% - 1.25rem); }
-
-@media (max-width: 640px) {
-  .grid-3-1 > *:nth-child(n) {
-    width: calc(100% - 20px);
-    width: calc(100% - 1.25rem); } }
+  width: calc(25% - 1.25rem);
+  margin-left: 20px; }
 
 .grid-1-3 > *:nth-child(odd) {
   width: calc(25% - 20px);
@@ -2260,12 +2266,8 @@ select {
 
 .grid-1-3 > *:nth-child(even) {
   width: calc(75% - 20px);
-  width: calc(75% - 1.25rem); }
-
-@media (max-width: 640px) {
-  .grid-1-3 > *:nth-child(n) {
-    width: calc(100% - 20px);
-    width: calc(100% - 1.25rem); } }
+  width: calc(75% - 1.25rem);
+  margin-left: 20px; }
 
 .grid-3-2 > *:nth-child(odd) {
   width: calc(60% - 20px);
@@ -2273,12 +2275,8 @@ select {
 
 .grid-3-2 > *:nth-child(even) {
   width: calc(40% - 20px);
-  width: calc(40% - 1.25rem); }
-
-@media (max-width: 640px) {
-  .grid-3-2 > *:nth-child(n) {
-    width: calc(100% - 20px);
-    width: calc(100% - 1.25rem); } }
+  width: calc(40% - 1.25rem);
+  margin-left: 20px; }
 
 .grid-2-3 > *:nth-child(odd) {
   width: calc(40% - 20px);
@@ -2286,12 +2284,8 @@ select {
 
 .grid-2-3 > *:nth-child(even) {
   width: calc(60% - 20px);
-  width: calc(60% - 1.25rem); }
-
-@media (max-width: 640px) {
-  .grid-2-3 > *:nth-child(n) {
-    width: calc(100% - 20px);
-    width: calc(100% - 1.25rem); } }
+  width: calc(60% - 1.25rem);
+  margin-left: 20px; }
 
 .grid-4-1 > *:nth-child(odd) {
   width: calc(80% - 20px);
@@ -2299,12 +2293,8 @@ select {
 
 .grid-4-1 > *:nth-child(even) {
   width: calc(20% - 20px);
-  width: calc(20% - 1.25rem); }
-
-@media (max-width: 640px) {
-  .grid-4-1 > *:nth-child(n) {
-    width: calc(100% - 20px);
-    width: calc(100% - 1.25rem); } }
+  width: calc(20% - 1.25rem);
+  margin-left: 20px; }
 
 .grid-1-4 > *:nth-child(odd) {
   width: calc(20% - 20px);
@@ -2312,12 +2302,8 @@ select {
 
 .grid-1-4 > *:nth-child(even) {
   width: calc(80% - 20px);
-  width: calc(80% - 1.25rem); }
-
-@media (max-width: 640px) {
-  .grid-1-4 > *:nth-child(n) {
-    width: calc(100% - 20px);
-    width: calc(100% - 1.25rem); } }
+  width: calc(80% - 1.25rem);
+  margin-left: 20px; }
 
 .pull {
   margin-right: auto; }
@@ -3046,10 +3032,12 @@ button:active,
   margin-left: 10px; }
   .grid-sass > *:first-child {
     margin-left: 20px; }
+  .grid-sass > *:nth-child(8) {
+    margin-left: 20px; }
 
 .grid-sass > .flex-item-double {
-  width: calc(100% * 2 / 7 - 20px);
-  width: calc(100% * 2 / 7 - 1.25rem);
+  width: calc((100% * 2 / 7 - (10px)));
+  width: calc((100% * 2 / 7 - (0.625rem)));
   margin-left: 20px; }
 
 @media (max-width: 768px) {
@@ -3059,23 +3047,27 @@ button:active,
     margin-left: 20px; }
     .grid-sass > *:first-child {
       margin-left: 20px; }
+    .grid-sass > *:nth-child(4) {
+      margin-left: 20px; }
   .grid-sass > .flex-item-double {
-    width: calc(100% * 2 / 3 - 20px);
-    width: calc(100% * 2 / 3 - 1.25rem);
+    width: calc((100% * 2 / 3 - (20px)));
+    width: calc((100% * 2 / 3 - (1.25rem)));
     margin-left: 20px; }
   .grid-sass > div {
     margin-bottom: 20px; } }
 
 .grid-sass-6 > * {
-  width: calc(((100% * 1 / 6) - 5px - (20px / 6)) + (5px / 6) - .01px);
-  width: calc(((100% * 1 / 6) - 0.3125rem - (1.25rem / 6)) + (0.3125rem / 6) - 0.00063rem);
-  margin-left: 5px; }
+  width: calc(((100% * 1 / 6) - 25px - (20px / 6)) + (25px / 6) - .01px);
+  width: calc(((100% * 1 / 6) - 1.5625rem - (1.25rem / 6)) + (1.5625rem / 6) - 0.00063rem);
+  margin-left: 25px; }
   .grid-sass-6 > *:first-child {
+    margin-left: 20px; }
+  .grid-sass-6 > *:nth-child(7) {
     margin-left: 20px; }
 
 .grid-sass-6 > .flex-item-double {
-  width: calc(100% * 2 / 6 - 20px);
-  width: calc(100% * 2 / 6 - 1.25rem);
+  width: calc((100% * 2 / 6 - (25px)));
+  width: calc((100% * 2 / 6 - (1.5625rem)));
   margin-left: 20px; }
 
 .grid-sass-3 > * {
@@ -3084,10 +3076,26 @@ button:active,
   margin-left: 0px; }
   .grid-sass-3 > *:first-child {
     margin-left: 20px; }
+  .grid-sass-3 > *:nth-child(4) {
+    margin-left: 20px; }
 
 .grid-sass-3 > .flex-item-double {
-  width: calc(100% * 2 / 3 - 20px);
-  width: calc(100% * 2 / 3 - 1.25rem);
+  width: calc((100% * 2 / 3 - (0px)));
+  width: calc((100% * 2 / 3 - (0rem)));
+  margin-left: 20px; }
+
+.grid-sass-4 > * {
+  width: calc(((100% * 1 / 3) - 20px - (20px / 3)) + (20px / 3) - .01px);
+  width: calc(((100% * 1 / 3) - 1.25rem - (1.25rem / 3)) + (1.25rem / 3) - 0.00063rem);
+  margin-left: 20px; }
+  .grid-sass-4 > *:first-child {
+    margin-left: 20px; }
+  .grid-sass-4 > *:nth-child(4) {
+    margin-left: 20px; }
+
+.grid-sass-4 > .flex-item-double {
+  width: calc((100% * 2 / 3 - (20px)));
+  width: calc((100% * 2 / 3 - (1.25rem)));
   margin-left: 20px; }
 
 .grid-uneven > *:nth-child(odd) {
@@ -3096,12 +3104,24 @@ button:active,
 
 .grid-uneven > *:nth-child(even) {
   width: calc(83.33333% - 20px);
-  width: calc(83.33333% - 1.25rem); }
+  width: calc(83.33333% - 1.25rem);
+  margin-left: 20px; }
+
+.grid-uneven-styling > *:nth-child(odd) {
+  width: calc(16.66667% - 5px);
+  width: calc(16.66667% - 0.3125rem); }
+
+.grid-uneven-styling > *:nth-child(even) {
+  width: calc(83.33333% - 20px);
+  width: calc(83.33333% - 1.25rem);
+  margin-left: 5px; }
 
 @media (max-width: 640px) {
-  .grid-uneven > *:nth-child(n) {
+  .grid-uneven-styling > *:nth-child(n) {
     width: calc(100% - 20px);
-    width: calc(100% - 1.25rem); } }
+    width: calc(100% - 1.25rem); }
+  .grid-uneven-styling > *:nth-child(even) {
+    margin-left: 20px; } }
 
 .columns {
   padding: 0 0.625rem; }
