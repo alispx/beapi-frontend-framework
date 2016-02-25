@@ -83,6 +83,11 @@
 				<div >5/6</div>
 			</div>
 			<br />
+			<div class="grid-uneven-styling">
+				<div >2/6</div>
+				<div >4/6</div>
+			</div>
+			<br />
 			<div class="grid-2-1">
 			  <div>
 			    <ul class="unstyled grid-3">
