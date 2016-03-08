@@ -7,34 +7,13 @@
 
 		
 		
-		<article class="entry" itemscope itemtype="http://schema.org/Article">
+		<article class="entry knacss-entry" itemscope itemtype="http://schema.org/Article">
 			<header class="entry__header">
 				<h1 class="page__title" itemprop="headline">Titre de la page</h1>
 				<div class="entry__date">
 					Publié le <time datetime="2015-06-30" itemprop="datePublished">06/30/2015</time>
 				</div>
 			</header>
-			<div class="row ">
-				<div class="small-12 large-4 columns">
-					<div>
-						<h2>1ere colonne</h2>
-						<p>Voici la premiere colonne</p>
-					</div>
-					
-				</div>
-		        <div class="small-6 large-4 columns">
-		        	<div>
-						<h2>2eme colonne</h2>
-						<p>Voici la deuxieme colonne</p>
-					</div>
-		        </div>
-		        <div class="small-6 large-4 columns">
-		        	<div>
-						<h2>3eme colonne</h2>
-						<p>Voici la troisieme colonne</p>
-					</div>
-		        </div>
-			</div>
 			<br />
 			<h3>Grilles knacss</h3>
 			<div class="grid-4-tablet-3-small-2-tiny-1">
@@ -52,7 +31,7 @@
 				</div>
 			</div>
 			<br />
-			<h3>Grilles Personnal Gutter Size (hack)</h3>
+			<h3>Grids Personnal Gutter Size (hack)</h3>
 			<div class="grid-sass">
 				<div>1 sur 7</div>
 				<div>2 sur 7</div>
@@ -78,6 +57,7 @@
 				<div>3 sur 3</div>
 			</div>
 			<br />
+			<h3>Uneven Grids</h3>
 			<div class="grid-uneven">
 				<div >1/6</div>
 				<div >5/6</div>

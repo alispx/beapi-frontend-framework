@@ -18,6 +18,10 @@
 	}
 }
 
+.knacss-entry {
+	background:$maincolor;
+}
+
 //omega reset example
 .grid-item {
 	@include span(6);

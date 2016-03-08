@@ -2031,8 +2031,8 @@ select {
 [class*="grid-"] > * {
   box-sizing: border-box;
   flex: 0 0 auto;
-  width: calc(100% * 1 / 4 - 20px - .01px);
-  width: calc(100% * 1 / 4 - 1.25rem - 0.00063rem);
+  width: calc(100% * 1 / 4 - 20px);
+  width: calc(100% * 1 / 4 - 1.25rem);
   min-width: 0;
   margin-left: 20px;
   /* inline-block fallback for IE9 generation */
@@ -3318,6 +3318,9 @@ button:active,
     width: 23.72881%;
     float: right;
     margin-right: 0; } }
+
+.knacss-entry {
+  background: #f5745a; }
 
 .grid-item {
   width: 49.15254%;
